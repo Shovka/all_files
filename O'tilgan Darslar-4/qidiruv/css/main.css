@@ -1,0 +1,38 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.form-js{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    width: 2px;
+    background-color: black;
+    height: 500px;
+}
+
+input{
+    outline: none;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: royalblue;
+    border-radius: 10px;
+    color: white;
+
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+}

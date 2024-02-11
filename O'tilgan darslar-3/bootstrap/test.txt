@@ -1,0 +1,25 @@
+====================
+font-size
+fs-1 => 40px 
+fs-2 => 32px 
+fs-3 => 28px 
+fs-4 => 24px 
+fs-5 => 20px 
+fs-6 => 16px
+====================
+margin,
+padding
+m, p-5 => 48px
+m, p-4 => 24px
+m, p-3 => 16px
+m, p-2 => 8px
+m, p-1 => 4px
+m, p-0 => 0
+====================
+display-1 => 80px
+display-2 => 72px
+display-3 => 64px
+display-4 => 56px
+display-5 => 48px
+display-6 => 40px
+====================

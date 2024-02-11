@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #ff0000;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+	background-color: #161e2e;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	max-width: 1330px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+img {
+	display: block;
+	height: 100%;
+}
+
+.brands {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.brands__link img {
+	width: 120px;
+	margin: 20px;
+}
+
+.ecommerce-cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cards {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 48%;
+	margin: 10px 0;
+	padding: 30px 20px;
+	border-radius: 8px;
+	transition: all 0.2s ease;
+}
+
+.card:hover {
+	box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+}
+
+.card__title {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #f4fbf7;
+}
+
+.card__text {
+	font-size: 16px;
+	line-height: 20px;
+	color: #989898;
+}
+
+.ecommerce-cards__image {
+	width: 380px;
+}
+
+.scroll {
+  padding: 100px 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  flex-shrink: 0;
+  background-color: black;
+}
+
+/* .box:nth-child(7) {
+  flex-shrink: 0;
+} */
+
+/* Responsive start */
+@media (max-width: 1000px) {
+	.ecommerce-cards {
+		align-items: flex-start;
+	}
+	.ecommerce-cards__image {
+		margin-top: 10px;
+		width: 38%;
+	}
+}
+
+@media (max-width: 800px) {
+	.card {
+		box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+	}
+}
+
+@media (max-width: 620px) {
+	.ecommerce-cards {
+		flex-wrap: wrap;
+	}
+	.cards {
+		width: 100%;
+	}
+
+	.ecommerce-cards__image {
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+
+@media (max-width: 500px) {
+	.ecommerce-cards__image {
+		width: 80%;
+	}
+}
+
+@media (max-width: 400px) {
+	.card {
+		width: 100%;
+	}
+
+	.ecommerce-cards__image {
+		width: 100%;
+	}
+}

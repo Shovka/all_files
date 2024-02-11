@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+
+@mixin text($color , $size , $weight) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin button($padding , $backround , $border , $color) {
+    padding: $padding;
+    background-color: $backround;
+    border: $border;
+    color: $color;
+}
+
+@mixin flexes($displey , $justfy , $items) {
+    display: $displey;
+    justify-content: $justfy;
+    align-items: $items;
+}
+
+@mixin card($width , $height , $backround) {
+    width: $width;
+    height: $height;
+    background-color: $backround;
+}

@@ -1,0 +1,55 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(51, 49, 49);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section{
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    font-size: 40px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.card:nth-child(1) {
+    height: 700px;
+    order: 1;
+}
+.card:nth-child(2) {
+    height: 600px;
+    order: 1;
+}
+.card:nth-child(3) {
+    height: 500px;
+    order: -1;
+}
+.card:nth-child(4) {
+    height: 400px;
+    order: 1;
+}
+.card:nth-child(5) {
+    height: 300px;
+    order: -2;
+}

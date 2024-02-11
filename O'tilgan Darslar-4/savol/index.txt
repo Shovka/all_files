@@ -1,0 +1,2 @@
+1. Hoisting nima ?
+2. tenglik operator qaysilar va farlari ?

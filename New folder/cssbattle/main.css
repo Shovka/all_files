@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: wheat; */
+    /* background-color: rgb(235, 75, 75); */
+}
+
+
+/* 1NCHISI */
+/* 
+span{
+    display: block;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span1{
+    position: absolute;
+    width: 50px;
+    height: 350px;
+    background-color: tomato;
+}
+
+.span2{
+    width: 350px;
+    height: 50px;
+    background-color: tomato;
+}
+
+.burchak{
+    position: absolute;
+    top: -70px;
+    left: 78px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+} */
+
+
+/* 2NCHISI */
+
+/* .radius{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.center-div{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+}
+
+
+/* 3NCHISI */
+
+/* 
+.tortburchak{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+
+span{
+    display: block;
+}
+
+.span1{
+    position: relative;
+    width: 50px;
+    height: 600px;
+    background-color: rgb(235, 75, 75);
+    transform: rotate(45deg);
+}
+
+.span2{
+    position: absolute;
+    width: 50px;
+    height: 600px;
+    background-color: rgb(235, 75, 75);
+    transform: rotate(-45deg);
+} */
+
+/* .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+span{
+    display: block;
+}
+.span1{
+    position: absolute;
+    width: 180px;
+    margin-left: 30px;
+    height: 80px;
+    background-color: #000;
+    transform: rotate(-47deg);
+}
+.span2{
+    position: absolute;
+    width: 180px;
+    left: -10px;
+    z-index: -1;
+    height: 80px;
+    background-color: gold;
+    transform: rotate(45deg);
+} */

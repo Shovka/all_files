@@ -1,0 +1,27 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+/* .active{
+    background-color: red;
+} */
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    display: none;
+}
+
+button{
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+    <div class="contaniner">
+        <form class="form-js" method="post">
+            <input class="firstname-input" type="text" placeholder="Ismingizni kiriting " required>
+            <input class="lastname-input" type="text" placeholder="Fammilyangizni kiriting " required>
+            <input class="email-input" type="text" placeholder="Email kiriting " required>
+            <input class="password-input" type="text" placeholder="Password kiriting " required>
+            <input class="country-input" type="text" placeholder="Davlatingizni kiriting " required>
+            <button type="submit">YUbor</button>
+        </form>
+
+        <ul class="list"></ul>
+
+        <!-- Template -->
+        <template class="list-item-template">
+            <li class="list__item">
+                <p class="firstname"></p>
+                <p class="lastname"></p>
+                <p class="email"></p>
+                <p class="password"></p>
+                <p class="country"></p>
+            </li>
+        </template>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

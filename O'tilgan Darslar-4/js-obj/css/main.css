@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+    display: flex;justify-content: space-evenly;
+    padding: 10px;
+    background-color: #417C3C;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    height: 280px;
+    background-color: #224955;
+
+}
+input{
+    padding-left: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 90%;
+    margin: 10px 0;
+}
+
+button{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+}
+
+.card2{
+    margin: 10px 0;
+    border: 2px solid bisque;
+    width: 180px;
+    height: 260px;
+    background-color: #D9D9D9;
+    padding: 10px;
+    height: auto;
+}
+p{
+    font-size: 18px;
+    margin: 12px 0;
+    padding-left: 5px;
+    color: #BB1E1E;
+}
+
+input::placeholder{
+    color: #BB1E1E;
+}

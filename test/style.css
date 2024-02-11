@@ -1,0 +1,88 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    font-family: 'Space Mono', monospace;
+    display: flex;align-items: center;justify-content: center;height: 100vh;
+}
+
+.wrapper{
+    max-width: 600px;
+    height: 400px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    color: red;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+}
+.btn1{
+    padding: 15px 60px;
+    border: none;
+    background-color: green;
+    font-size: 25px;
+    color: white;
+}
+
+.btn2{
+    padding: 15px 60px;
+    border: none;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    /* animation: infinite salom ease; */
+}
+
+.btn2:hover{
+    transition: 0.4s all ease; 
+    /* transform: translateX(40px);
+    transform: translateY(40px); */ 
+    transform: scale(0.0089999999989);
+}
+
+a{
+    color: white;
+}
+
+
+
+.ov{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.ov::after{
+    transform: translateY(-30px);
+    position: absolute;
+    z-index: 99;
+    content: 'Yaxshi';
+    text-align: center;
+
+    color: green;
+    font-size: 100px;
+    background-color: red;
+}
+.btn1:hover{
+    transform: scale(5);
+    transition: 1s all ease;
+}

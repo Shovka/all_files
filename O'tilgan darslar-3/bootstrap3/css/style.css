@@ -1,0 +1,21 @@
+.burger{
+    display: none;
+}
+.burger span{
+    margin: 2px 0;
+    width: 20px;
+    height: 3px;
+    display: block;
+    background-color: white;
+}
+.ul-flex{
+    display: flex;
+}
+@media (max-width:580px) {
+    .burger{
+        display: block;
+    }
+    .ul-flex{
+        display: none;
+    }
+}

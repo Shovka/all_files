@@ -1,0 +1,17 @@
+.form-css{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px    ;
+}
+
+.email{
+    flex: 1 0 130px;
+}
+
+.pasw{
+    flex: 1 0 130px;
+}
+
+button{
+    flex: 1 0 40px;
+}

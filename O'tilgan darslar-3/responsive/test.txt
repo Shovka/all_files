@@ -1,0 +1,16 @@
+0 ... 1200px => h1 font-size: 80px;
+1001px
+
+0 ... 1000px => h1 size: 75px;
+801px
+
+0 ... 800px => h1 size: 60px;
+601px
+
+0... 600px => h1 size 40px;
+401px
+
+0... 400px => h1 size 30px;
+301px
+
+0... 300px => h1 size 20px;

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin-bottom: 0;
+}
+ul {
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-wrapper {
+    margin-bottom: 50px;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.one {
+    color: rgb(255, 0, 0);
+}
+ 
+.two {
+  color: rgb(255, 106, 0);
+}
+ 
+.three {
+  color: rgb(251, 255, 120);
+}
+ 
+.four {
+  color: rgb(255, 255, 0);
+}
+ 
+.five {
+  color: rgb(24, 159, 14);  
+}
+
+
+
+
+#navbar {
+    padding: 15px 52px;    
+}
+#navbar .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar .navbar-content .left-side h1 {
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+#navbar .navbar-content .center ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar .navbar-content .center ul li{
+    margin-right: 46px;
+}
+#navbar .navbar-content .center ul li a {
+    color: #4A1D1F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#navbar .navbar-content .right-side {
+    display: flex;
+    align-items: center;
+}
+#navbar .navbar-content .right-side .input input {
+    border: none;
+    padding: 10px 0 10px 17px;
+    border: 0.5px solid #4A1D1F;
+}
+#navbar .navbar-content .right-side .input input::placeholder {
+    color: #B4B4B4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#navbar .navbar-content .right-side .input i {
+    margin-left: -5px;
+    padding: 15px 14px 15px 12px;
+    color: white;
+    background-color: #4A1D1F;
+}
+#navbar .navbar-content .right-side .fa-user {
+    font-size: 34px;
+    margin-left: 31px;
+}
+#navbar .navbar-content .right-side .fa {
+    font-size: 34px;
+    margin-left: 31px;
+    
+}
+#navbar .navbar-content .right-side .fa span {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0.1px solid #4A1D1F;
+    border-radius: 50%;
+    background-color: #4A1D1F;
+}
+/*--------------------------------------------------------- navbar-end -------------------------------------------------------------*/
+
+#header {
+    margin-top: 90px;
+}
+#header .header-content {
+    display: flex;
+    align-items: center;
+}
+#header .header-content .left-side h1{
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+#header .header-content .left-side h5 {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+#header .header-content .left-side .buttons a:nth-child(1) {
+    color: #FBEDCD;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin-right: 16px;
+    transition: .3s;
+    background-color: #4A1D1F;
+    border: 1px solid #4A1D1F;
+}
+#header .header-content .left-side .buttons a:nth-child(1):hover {
+    color: #4A1D1F;
+    background: none;
+}
+#header .header-content .left-side .buttons a:nth-child(2) {
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 30px;
+    margin-right: 16px;
+    border-radius: 4px;
+    transition: .3s;
+    border: 1px solid #4A1D1F;
+}
+#header .header-content .left-side .buttons a:nth-child(2):hover {
+    color: #FBEDCD;
+    background-color: #4A1D1F;
+}
+
+#header .header-content .right-side .img {
+    width: 729px;
+    height: 599px;
+    background-image: url("./images/cake1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 88px;
+}
+
+
+#section-1 {
+    margin-top: 100px;
+    cursor: pointer;
+}
+#section-1 .section-content-1 .card{
+    border: none;
+}
+#section-1 .section-content-1 .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+#section-1 .section-content-1 .top .left-side h1 {
+    color: #4A1D1F;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+#section-1 .section-content-1 .top .right-side p {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+#section-1 .section-content-1 .bottom {
+    text-align: left;
+    
+}
+#section-1 .section-content-1 .bottom p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    margin-top: -100px;
+    margin-bottom: 9px;
+}
+#section-1 .section-content-1 .bottom .rating {
+    display: flex;
+    align-items: center;
+}
+#section-1 .section-content-1 .bottom .ratingspan {
+    width: 26px;
+    height: 26px;
+}
+.rating h5 {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-left: 5px;
+}
+.rating span {
+    font-size: 26px;
+    margin-top: -5px;
+}
